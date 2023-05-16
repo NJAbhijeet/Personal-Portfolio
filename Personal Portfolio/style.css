@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: url("./Images/backgound.jpg");
+    background-position: absolute;
+    font-family: "roboto", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 3100px;
+    margin: 0 auto;
+    padding: 4px;
+    margin-top: 4rem;
+    text-align: center;
+    align-items: center;
+}
+
+#Myself {
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 50px;
+      
+}
+
+.designation {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+p {
+    font: 300px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font: 300;
+    color:black;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 100px;
+    text-align: left;
+    color: antiquewhite;
+}
+
+.a {
+    height: 300px;
+    width: 300px;
+    padding-bottom: 50px;
+}
+
+.a:hover {
+  animation-name: rotate;
+  animation-duration: 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Phone{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Email{
+    padding-top: 100px;
+}
+
+.Address{
+    padding-top: 100px;
+}
+
+.b {
+    padding-right: 100px;
+    padding-top: 100px;
+    height: 500px;
+    width: 500px;
+}
+
+.c {
+    padding-right: 100px;
+    padding-top: 100px;
+    height: 500px;
+    width: 500px;
+}
+
+.d {
+    padding-right: 100px;
+    padding-top: 100px;
+    height: 800px;
+    width: 800px;
+}
